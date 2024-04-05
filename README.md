@@ -53,7 +53,7 @@ volta a soar caso a luminosidade permaneça em nível de alerta.</li>
   <li>1 Sensor de luminosidade (LDR);</li>
   <li>3 LEDs;</li>
   <li>1 Buzzer;</li>
-  <li>Resistores para limitar a corrente dos LEDs;</li>
+  <li>Resistores para limitar a corrente dos LEDs e do Buzzer;</li>
   <li>Fios de conexão.</li>
 </ul>
 
