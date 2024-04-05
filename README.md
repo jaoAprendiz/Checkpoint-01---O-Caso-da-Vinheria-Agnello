@@ -3,6 +3,28 @@
 <p>Projeto desenvolvido como parte da atividade de Edge Computing e Computer Systems na <a href="">FIAP</a> ministrada pelo professor <a href="https://www.linkedin.com/in/fabio-cabrini?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAA4IttQBKDdr5cvPzUTzpVSkZFkQM-qKngk&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3B3UXPOnpXR6qTOU9g%2FnseBQ%3D%3D" target="_blank">Fábio Cabrini</a>.</p>
 <p>Este projeto consiste em um sistema de alarme desenvolvido no Tinkercad para monitorar a luminosidade do ambiente de uma vinheria. O objetivo é oferecer uma solução simples e eficaz para a vinheria (empresa fictícia) que deseja ampliar seu mercado através do serviço de delivery de vinhos.</p>
 <strong>Link do circuíto no Tinkercad: <a href="https://www.tinkercad.com/things/6XkaoIcddoI-checkpoint-01-o-caso-da-vinheria-agnello?sharecode=-Q2lourL5RZWIIbr1KeHDirmnVRXhNf9TnNRq1CRUdM">Checkpoint 01 - O Caso da Vinheria Agnello</a></strong>
+<br>
+<strong>Link do Vídeo Explicativo: <a href="https://www.youtube.com/watch?v=jWchgeo5nnQ">Checkpoint 01 - O Caso da Vinheria Agnello</a></strong>
+
+<h2>Integrantes: </h2>
+<ol>
+  <li>
+    <p>João Victor Soave</p>
+    <a href="https://github.com/siigAprendiz"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>
+  </li>
+  <li>
+    <p>Felipe Nascimento</p>
+    <a href="https://github.com/felipe3103"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>
+  </li>
+    <li>
+    <p>Henrique Ignacio</p>
+    <a href="https://github.com/henriqueignacio"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>
+  </li>
+    <li>
+    <p>Gustavo</p>
+    <a><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>
+  </li>
+</ol>
 
 <h2>Contexto e Descrição do Desafio</h2>
 <p>Vocês foram contratados pela Vinheria Agnello para desenvolver um sistema de monitoramento a ser instalado 
