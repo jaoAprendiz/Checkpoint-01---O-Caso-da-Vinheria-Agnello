@@ -44,7 +44,7 @@ volta a soar caso a luminosidade permaneça em nível de alerta.</li>
 </ul>
 
 <h2>Descrição: </h2>
-<p>O sistema de alarme é composto por um Arduino, um sensor de luminosidade (LDR), três LEDs e um buzzer. O Arduino monitora continuamente a luminosidade ambiente usando o sensor de luminosidade. O nível de luminosidade é mostrado através dos LEDs, considerando que o nível ideal de luminosidade para o armazenamento de vinhos é baixo. Em caso de níveis de luminosidade de alerta, o LED amarelo será aceso e caso o nível seja crítico será aceso o LED vermelho e o buzzer emitirá um som de perigo durante 3 segundos.</p>
+<p>O sistema de alarme é composto por um Arduino, um sensor de luminosidade (LDR), três LEDs e um buzzer. O Arduino monitora continuamente a luminosidade ambiente usando o sensor de luminosidade. O nível de luminosidade é mostrado através dos LEDs, considerando que o nível ideal de luminosidade para o armazenamento de vinhos é baixo (abaixo de 30%). Em caso de níveis de luminosidade de alerta (entre 30% e 60%), o LED amarelo será aceso e caso o nível seja crítico (acima de 60%) será aceso o LED vermelho e o buzzer emitirá um som de perigo durante 3 segundos.</p>
 
 <h2>Dependências: </h2>
 <p>Para reproduzir este projeto, você precisará dos seguintes materiais: </p>
