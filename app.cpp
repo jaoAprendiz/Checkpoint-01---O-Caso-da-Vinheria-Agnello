@@ -18,26 +18,29 @@ void setup() {
 
 void loop() {
   valorLdr = analogRead(ldr); //Lê o valor do sensor LDR e armazena na variável valorLdr
-
-  if (valorLdr < 100) { // Luminosidade baixa (OK < 100 lux)
+  Serial.print("Valor do LDR: "); // Imprime uma mensagem
+  Serial.println(valorLdr); // Imprime a variável valorLdr
+  int l = map(valorLdr,54, 974, 0, 100); // Mapeia o valor do sensor LDR para uma escala de 0 a 100
+  Serial.print("Valor do L: "); // Imprime uma mensagem
+  Serial.println(l); // Imprime a variável valorLdr
+  if (l < 30) { // Luminosidade baixa (OK < 30%)
     apagarLeds(); // Executa a função apagarLeds
     digitalWrite(ledVerde, HIGH); // Acende o LED verde
   } 
-  else if (valorLdr > 100 && valorLdr < 150) { // Luminosidade média (alerta entre 100 e 150 lux)
+  else if (l > 30 && l < 60) { // Luminosidade média (alerta entre 30% e 60%)
     apagarLeds(); // Executa a função apagarLeds
     digitalWrite(ledAmarelo, HIGH); // Acende o LED amarelo
   } 
-  else { // Luminosidade alta (problema acima de 150 lux)
+  else { // Luminosidade alta (problema acima de 60%)
   	apagarLeds(); // Executa a função apagarLeds
     digitalWrite(ledVermelho, HIGH); // Acende o LED vermelho
     tone(buzzer, 1000); // Toca o buzzer a uma frequencia de 1000Hz
-    delay(3000); // Define o tempo de duração do som do buzzer para 3 segundos
+    delay(3000); // Define o tempo de duração do som do buzzer
     noTone(buzzer); // Desliga o som do buzzer
     delay(2000); // Define o silêncio entre um toque e outro
   }
   
-  Serial.print("Valor do LDR: "); // Imprime uma mensagem
-  Serial.println(valorLdr); // Imprime a variável valorLdr
+ 
 }
 
 void apagarLeds() { // Função para apagar todos os leds
