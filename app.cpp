@@ -22,12 +22,12 @@ void loop() {
   Serial.println(valorLdr); // Imprime a variável valorLdr
   int l = map(valorLdr,54, 974, 0, 100); // Mapeia o valor do sensor LDR para uma escala de 0 a 100
   Serial.print("Valor do L: "); // Imprime uma mensagem
-  Serial.println(l); // Imprime a variável valorLdr
-  if (l < 30) { // Luminosidade baixa (OK < 30%)
+  Serial.println(l); // Imprime a variável valor l
+  if (l <= 30) { // Luminosidade baixa (OK < 30%)
     apagarLeds(); // Executa a função apagarLeds
     digitalWrite(ledVerde, HIGH); // Acende o LED verde
   } 
-  else if (l > 30 && l < 60) { // Luminosidade média (alerta entre 30% e 60%)
+  else if (l > 30 && l <= 60) { // Luminosidade média (alerta entre 30% e 60%)
     apagarLeds(); // Executa a função apagarLeds
     digitalWrite(ledAmarelo, HIGH); // Acende o LED amarelo
   } 
