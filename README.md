@@ -4,7 +4,7 @@
 <p>Este projeto consiste em um sistema de alarme desenvolvido no Tinkercad para monitorar a luminosidade do ambiente de uma vinheria. O objetivo é oferecer uma solução simples e eficaz para a vinheria (empresa fictícia) que deseja ampliar seu mercado através do serviço de delivery de vinhos.</p>
 <strong>Link do circuíto no Tinkercad: <a href="https://www.tinkercad.com/things/6XkaoIcddoI-checkpoint-01-o-caso-da-vinheria-agnello?sharecode=-Q2lourL5RZWIIbr1KeHDirmnVRXhNf9TnNRq1CRUdM">Checkpoint 01 - O Caso da Vinheria Agnello</a></strong>
 <br>
-<strong>Link do Vídeo Explicativo: <a href="https://www.youtube.com/watch?v=jWchgeo5nnQ">Checkpoint 01 - O Caso da Vinheria Agnello</a></strong>
+<strong>Link do Vídeo Explicativo: <a href="https://www.youtube.com/watch?v=15n1oPt4sAI">Checkpoint 01 - O Caso da Vinheria Agnello</a></strong>
 
 <h2>Integrantes: </h2>
 <ol>
